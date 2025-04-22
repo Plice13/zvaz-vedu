@@ -50,7 +50,7 @@ def find_string_in_files(directory_path, search_string, lst_dont_look_folders):
 
 if __name__ == "__main__":
     # Define the string to search for
-    string_to_find = ''
+    string_to_find = 'dark.png'
 
     lst_dont_look_folders = ['.git', 'public']  # List of folders to exclude
 
