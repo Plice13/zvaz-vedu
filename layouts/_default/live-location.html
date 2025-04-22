@@ -170,25 +170,25 @@
     {{end}}
     {{ if not .Params.noPastActions }}
     <section class="layout-container" id="history">
-            <div class="layout-content">
-                <h2>Ohlédnutí</h2>
-                <div class="history-content">
-                    {{range .Pages}}
-                        <a href="{{.RelPermalink}}" class="history-item">
-                            {{$name := .File.BaseFileName }}
-                            {{$dir := printf "/media/imgs/gallery/%s" $name}}
-                            {{$img := printf "%s/main.webp" $dir}}
-                            <img src="{{$img}}">
-                            <div class="history-item-body">
-                                <strong>{{.Title}}</strong>
-                                <em>{{.Date.Format "2. 1. 2006"}}</em>
-                            </div>
-                        </a>
-                    {{end}}
-                </div>
+        <div class="layout-content">
+            <h2>Ohlédnutí</h2>
+            <div class="history-content">
+                {{range .Pages}}
+                    <a href="{{.RelPermalink}}" class="history-item">
+                        {{$name := .File.BaseFileName }}
+                        {{$dir := printf "media/imgs/gallery/%s" $name}}
+                        {{$img_path := printf "%s/main.webp" $dir}}
+                        <img src="{{ .Site.BaseURL }}{{$img_path}}">
+                        <div class="history-item-body">
+                            <strong>{{.Title}}</strong>
+                            <em>{{.Date.Format "2. 1. 2006"}}</em>
+                        </div>
+                    </a>
+                {{end}}
             </div>
-    {{end}}
+        </div>
     </section>
+    {{end}}
     <section class="layout-container" id="team">
         <div class="layout-content">
             <h2>Za {{.Title}} stojí...</h2>
