@@ -1,8 +1,8 @@
 {{define "styles"}}
-    <link rel="stylesheet" href="/css/contact.css">
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/contact.css">
 {{end}}
 {{define "scripts"}}
-    <script src="/js/darkmode.js"></script>
+    <script src="{{ .Site.BaseURL }}/js/darkmode.js"></script>
 {{end}}
 {{define "main"}}
     <header class="layout-container">
@@ -11,7 +11,7 @@
                 <h1>Věda je naším motorem.</h1>
                 <p class="header-text">Dohromady jsme se dali na střední, ale tím to rozhodně nekončí</p>
             </div>
-            <img src="/media/imgs/base/mark-blk.png">
+            <img src="{{ .Site.BaseURL }}/media/imgs/base/mark-blk.png">
         </div>
     </header>
     <section class="layout-container" id="contact">
@@ -22,7 +22,7 @@
     <section class="layout-container" id="join-us">
         <div class="layout-content">
             <span>Chceš přinést Zvaž vědu! i do svého města?</span>
-            <a href="/zapojte-se/pridej-se-k-nam" class="secondary-button">Přidej se k nám &rarr;</a>
+            <a href="{{ .Site.BaseURL }}/zapojte-se/pridej-se-k-nam" class="secondary-button">Přidej se k nám &rarr;</a>
         </div>
     </section>
     <section class="layout-container" id="actions">
