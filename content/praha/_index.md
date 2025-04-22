@@ -1,6 +1,6 @@
 ---
 title: Zvaž vědu! Praha
-layout: location
+layout: live-location
 
 headerTitle: "v Praze"
 headerText: "Zvaž vědu! Praha 2025 se blíží!"
