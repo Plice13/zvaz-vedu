@@ -3,10 +3,6 @@ document.addEventListener("DOMContentLoaded", function() {
         // Check if the user prefers dark mode
         const darkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
         // Choose the appropriate logo image source
-        const logoSrc = darkMode 
-            ? 'https://plice13.github.io/zvaz-vedu/media/imgs/base/logo_transparent.png' 
-            : 'https://plice13.github.io/zvaz-vedu/media/imgs/base/logo_dark.png';
-
         const markSrc = darkMode 
             ? 'https://plice13.github.io/zvaz-vedu/media/imgs/base/mark.png' 
             : 'https://plice13.github.io/zvaz-vedu/media/imgs/base/mark-blk.png';
