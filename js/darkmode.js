@@ -4,20 +4,20 @@ document.addEventListener("DOMContentLoaded", function() {
         const darkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
         // Choose the appropriate logo image source
         const logoSrc = darkMode 
-            ? '{{ .Site.BaseURL }}media/imgs/base/logo_transparent.png' 
-            : '{{ .Site.BaseURL }}media/imgs/base/logo_dark.png';
+            ? 'https://plice13.github.io/zvaz-vedu/media/imgs/base/logo_transparent.png' 
+            : 'https://plice13.github.io/zvaz-vedu/media/imgs/base/logo_dark.png';
 
         const markSrc = darkMode 
-            ? '{{ .Site.BaseURL }}media/imgs/base/mark.png' 
-            : '{{ .Site.BaseURL }}media/imgs/base/mark-blk.png';
+            ? 'https://plice13.github.io/zvaz-vedu/media/imgs/base/mark.png' 
+            : 'https://plice13.github.io/zvaz-vedu/media/imgs/base/mark-blk.png';
 
         const micSrc = darkMode 
-            ? '{{ .Site.BaseURL }}media/imgs/base/mic-light.png' 
-            : '{{ .Site.BaseURL }}media/imgs/base/mic';
+            ? 'https://plice13.github.io/zvaz-vedu/media/imgs/base/mic-light.png' 
+            : 'https://plice13.github.io/zvaz-vedu/media/imgs/base/mic';
 
         const goalSrc = darkMode 
-            ? '{{ .Site.BaseURL }}media/imgs/base/goal-light.png' 
-            : '{{ .Site.BaseURL }}media/imgs/base/goal.png';
+            ? 'https://plice13.github.io/zvaz-vedu/media/imgs/base/goal-light.png' 
+            : 'https://plice13.github.io/zvaz-vedu/media/imgs/base/goal.png';
 
         // Update the nav logo
         document.querySelectorAll('.nav-logo img').forEach(function(img) {
