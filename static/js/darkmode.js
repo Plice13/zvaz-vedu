@@ -46,9 +46,8 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     // Initial logo update on page load
-    updateLogo();
+    // updateLogo();
 
     // Listen for changes in the dark mode preference
-    window.matchMedia('(prefers-color-scheme: dark)')
-          .addEventListener('change', updateLogo);
+    // window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', updateLogo);
 });
