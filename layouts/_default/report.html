@@ -1,5 +1,5 @@
 {{define "styles"}}
-    <link rel="stylesheet" href="/css/report.css">
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/report.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css"/>
 {{end}}
 
@@ -16,10 +16,11 @@
                 <div class="img-body">
                     {{$name := .File.BaseFileName}}
                     {{$dir := printf "static/media/imgs/gallery/%s" $name}}
+                    {{$baseURL := .Site.BaseURL}}
                     {{range readDir $dir}}
                         {{if not (eq .Name ".DS_Store")}}
-                            <a href="/media/imgs/gallery/{{$name}}/{{.Name}}" class="glightbox" data-gallery="gallery1">
-                                <img src="/media/imgs/gallery/{{$name}}/{{.Name}}">
+                            <a href="{{ .Site.BaseURL }}media/imgs/gallery/{{$name}}/{{.Name}}" class="glightbox" data-gallery="gallery1">
+                                <img src="{{ .Site.BaseURL }}media/imgs/gallery/{{$name}}/{{.Name}}">
                             </a>
                         {{end}}
                     {{end}}
