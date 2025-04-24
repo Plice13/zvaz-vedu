@@ -1,4 +1,4 @@
-baseURL = 'https://plice13.github.io/zvaz-vedu/'
+baseURL = 'https://zvazvedu.cz/'
 languageCode = 'cs-cz'
 title = 'Zvaž vědu!'
 uglyURLs = false

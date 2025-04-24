@@ -4,13 +4,13 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="apple-touch-icon" sizes="180x180" href="{{ .Site.BaseURL }}/favicon/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="{{ .Site.BaseURL }}/favicon/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="{{ .Site.BaseURL }}/favicon/favicon-16x16.png">
-        <link rel="manifest" href="{{ .Site.BaseURL }}/favicon/site.webmanifest">
+        <link rel="apple-touch-icon" sizes="180x180" href="{{ .Site.BaseURL }}favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="{{ .Site.BaseURL }}favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="{{ .Site.BaseURL }}favicon/favicon-16x16.png">
+        <link rel="manifest" href="{{ .Site.BaseURL }}favicon/site.webmanifest">
 
-        <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/root.css">
-        <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/base.css">
+        <link rel="stylesheet" href="{{ .Site.BaseURL }}css/root.css">
+        <link rel="stylesheet" href="{{ .Site.BaseURL }}css/base.css">
         {{block "styles" .}}{{end}}
 
         <script src="https://kit.fontawesome.com/9ab7bfa7fc.js" crossorigin="anonymous"></script>
@@ -23,9 +23,8 @@
         <nav>
             <div class="layout-content">
                 <div class="nav-logo">
-                    <a href="{{ .Site.BaseURL }}" class="nav-link"><img src="https://plice13.github.io/zvaz-vedu/media/imgs/base/full-logo-blk.png" alt="logo"></a>
-                    <!--tak dá se to tam? {{ .Site.BaseURL }}-->
-                    <a href="{{ .Site.BaseURL }}" class="nav-link"><img src="https://plice13.github.io/zvaz-vedu/media/imgs/base/mark-blk.png" alt="logo"></a>
+                    <a href="{{ .Site.BaseURL }}" class="nav-link"><img src="{{ .Site.BaseURL }}media/imgs/base/full-logo-blk.png" alt="logo"></a>
+                    <a href="{{ .Site.BaseURL }}" class="nav-link"><img src="{{ .Site.BaseURL }}media/imgs/base/mark-blk.png" alt="logo"></a>
                 </div>
                 <div class="nav-links">
                     <div>
@@ -48,7 +47,7 @@
             <div class="layout-content">
                 <div class="footer-container">
                     <div class="footer-body">
-                        <img class="footer-logo" src="{{ .Site.BaseURL }}/media/imgs/base/full-logo-blk.png" alt="logo">
+                        <img class="footer-logo" src="{{ .Site.BaseURL }}media/imgs/base/full-logo-blk.png" alt="logo">
                         <p>
                             Zvaž vědu! je studentský projekt, který popularizuje vědu mezi středoškoláky. Chceme ukázat, že věda není jen nudná teorie, ale že může být zábavná a nabídnout spoustu zajímavých příležitostí.
                         </p>
@@ -61,12 +60,12 @@
                     <div class="footer-columns">
                         <div class="footer-column">
                             <p class="footer-column-title">Navigace</p>
-                            <a href="/" class="footer-link">Domů</a>
-                            <a href="/plzen" class="footer-link">Plzeň</a>
-                            <a href="/brno" class="footer-link">Brno</a>
-                            <a href="/praha" class="footer-link">Praha</a>
-                            <a href="/o-nas" class="footer-link">O nás</a>
-                            <a href="/kontakt" class="footer-link">Kontakt</a>
+                            <a href="{{ .Site.BaseURL }}" class="footer-link">Domů</a>
+                            <a href="{{ .Site.BaseURL }}plzen" class="footer-link">Plzeň</a>
+                            <a href="{{ .Site.BaseURL }}brno" class="footer-link">Brno</a>
+                            <a href="{{ .Site.BaseURL }}praha" class="footer-link">Praha</a>
+                            <a href="{{ .Site.BaseURL }}o-nas" class="footer-link">O nás</a>
+                            <a href="{{ .Site.BaseURL }}kontakt" class="footer-link">Kontakt</a>
                         </div>
                         <div class="footer-column">
                             <p class="footer-column-title">Zapojte se</p>
