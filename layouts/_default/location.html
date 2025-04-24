@@ -1,6 +1,5 @@
 {{define "styles"}}
     <link rel="stylesheet" href="{{ .Site.BaseURL }}css/location.css">
-    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/location-live.css">
 {{end}}
 
 {{define "main"}}
@@ -13,7 +12,7 @@
                 {{with .Params.joinUs}}<a href="{{.}}" class="primary-button">Zapoj se</a>{{end}}
             </div>
             <div class="header-graphics">
-                <img class="header-graphics-photo" src="{{.Params.headerPhoto}}">
+                <img class="header-graphics-photo" src="{{ .Site.BaseURL }}{{.Params.headerPhoto}}">
                 <img class="header-graphics-logo" src="{{ .Site.BaseURL }}favicon/icon.png">
                 <div class="header-graphics-circle"></div>
             </div>
@@ -51,7 +50,7 @@
                             {{.Params.importantInfoText}}
                         </p>
                     </div>  
-                    <img src={{.Params.importantInfoImage}} style="max-width: none; max-height: 200px;">
+                    <img src="{{ .Site.BaseURL }}{{.Params.importantInfoImage}}" style="max-width: none; max-height: 200px;">
                 </div>
             </section>
         {{end}}
