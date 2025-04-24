@@ -1,7 +1,7 @@
 [
     {
         "name": "Simon Klinga",
-        "photo": "/media/imgs/speakers/simon-klinga.png",
+        "photo": "https://plice13.github.io/zvaz-vedu/media/imgs/speakers/simon-klinga.png",
         "locations": ["Brno"],
         "lectures": [{
             "title": "Ze školní lavice před porotce z NASA (a vlastní družici na raketě SpaceX)",
@@ -16,7 +16,7 @@
     },
     {
         "name": "Anna Černá",
-        "photo": "/media/imgs/speakers/anna-cerna.png",
+        "photo": "https://plice13.github.io/zvaz-vedu/media/imgs/speakers/anna-cerna.png",
         "locations": ["Brno"],
         "lectures": [{
             "title": "Výroba proteinů: mission (im)possible?",
@@ -31,7 +31,7 @@
     },
     {
         "name": "Tomáš Datinský",
-        "photo": "/media/imgs/speakers/tomas-datinsky.png",
+        "photo": "https://plice13.github.io/zvaz-vedu/media/imgs/speakers/tomas-datinsky.png",
         "locations": ["Brno"],
         "lectures": [{
             "title": "Jak se zapojit do vědy už na střední?",
@@ -46,7 +46,7 @@
     },
     {
         "name": "Michal Křipač",
-        "photo": "/media/imgs/speakers/michal-kripac.png",
+        "photo": "https://plice13.github.io/zvaz-vedu/media/imgs/speakers/michal-kripac.png",
         "locations": ["Brno"],
         "lectures": [{
             "title": "Jak souvisí informatika s hudbou?",
@@ -61,7 +61,7 @@
     },
     {
         "name": "Sebastian Matoušek",
-        "photo": "/media/imgs/speakers/sebastian-matousek.png",
+        "photo": "https://plice13.github.io/zvaz-vedu/media/imgs/speakers/sebastian-matousek.png",
         "locations": ["Brno"],
         "lectures": [{
             "title": "Jak mě robotika dostala do světa?",
@@ -76,7 +76,7 @@
     },
     {
         "name": "Matěj Šicner",
-        "photo": "/media/imgs/speakers/matej-sicner.jpg",
+        "photo": "https://plice13.github.io/zvaz-vedu/media/imgs/speakers/matej-sicner.jpg",
         "locations": ["Plzeň"],
         "lectures": [{
             "title": "AstroPi",
