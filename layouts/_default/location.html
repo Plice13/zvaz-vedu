@@ -190,7 +190,7 @@
                 <div class="layout-content link-button">
                     <div class="link-button-item">
                         <h4>{{ .Params.abstractHeader }}</h4>
-                        <a href={{.Params.abstractUrl}} class="secondary-button">{{.Params.abstractButton}} &rarr;</a>
+                        <a href="{{ $.Site.BaseURL }}{{.Params.abstractUrl}}" class="secondary-button">{{.Params.abstractButton}} &rarr;</a>
                     </div>
                 </div>
             </div>
