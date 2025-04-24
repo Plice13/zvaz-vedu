@@ -1,4 +1,3 @@
-# Workflow for building and deploying a Hugo site to GitHub Pages gh-pages branch
 name: Deploy Hugo site to gh-pages
 
 on:
@@ -52,6 +51,11 @@ jobs:
 
       - name: Install Node.js dependencies (if needed)
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+
+      # Step to delete previous build files in the 'public' directory (GitHub Pages folder)
+      - name: Delete previous build content
+        run: |
+          rm -rf ./public/*
 
       - name: Build Hugo site
         # Build site to default './public' directory
