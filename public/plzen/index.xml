@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zvaž vědu! Plzeň on Zvaž vědu!</title>
+    <link>http://localhost:1313/plzen/</link>
+    <description>Recent content in Zvaž vědu! Plzeň on Zvaž vědu!</description>
+    <generator>Hugo</generator>
+    <language>cs-cz</language>
+    <lastBuildDate>Fri, 15 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/plzen/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Zvaž vědu Plzeň 2024</title>
+      <link>http://localhost:1313/plzen/plzen24/</link>
+      <pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/plzen/plzen24/</guid>
+      <description>&lt;p&gt;V pátek 15. listopadu proběhl na Fakultě aplikovaných věd Západočeské univerzity v Plzni druhý ročník unikátní akce Zvaž vědu! Středoškoláci středoškolákům představili ty nejzajímavější oblasti výzkumu, které hýbou současným světem.&lt;/p&gt;&#xA;&lt;p&gt;Na FAV ZČU dorazilo více než 300 středoškoláků ze 17 různých škol napříč celým Plzeňským krajem, od Plas přes Plzeň až po Domažlice. Největší zastoupení mezi účastníky mělo Masarykovo a Mikulášské gymnázium v Plzni a rovněž domažlické gymnázium.&lt;/p&gt;&#xA;&lt;p&gt;Celou akcí provedli návštěvníky jako moderátoři hlavní organizátoři Jan Herzig a Matyáš Matta. Slavnostní zahájení proběhlo v 9 hodin v jednom z největších sálů celé Západočeské univerzity. “Věda, to je lidská snaha pochopit svět kolem sebe. Plyne z naší vrozené zvídavosti a její podstatou je pokládání otázek a hledání odpovědí. S každou odpovědí však vyvstávají další otázky. Jde zkrátka o nikdy nekončící dobrodružství poznání, “ uvedl na samém začátku dne Jan Herzig.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Zvaž vědu Plzeň 2023</title>
+      <link>http://localhost:1313/plzen/plzen23/</link>
+      <pubDate>Fri, 08 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/plzen/plzen23/</guid>
+      <description>&lt;p&gt;V pátek 8. prosince proběhla na Fakultě aplikovaných věd Západočeské univerzity v Plzni s nevídaným úspěchem naše první velká akce, přednáškový den Zvaž vědu! 2023. Pojďte si s námi připomenout, co všechno jsme společně v tento úžasný den zažili.&lt;/p&gt;&#xA;&lt;p&gt;Akce se zúčastnilo takřka 300 studentů gymnázií a technických středních škol z celého Plzeňského kraje, od Plzně přes Domažlice až po Stříbro. Celkově dorazili studenti z 13 různých škol.&lt;/p&gt;&#xA;&lt;p&gt;Největší zastoupení mezi účastníky mělo Masarykovo gymnázium a Gymnázium J. Š. Baara v Domažlicích.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

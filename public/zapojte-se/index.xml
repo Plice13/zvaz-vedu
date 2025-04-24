@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zapojte-Ses on Zvaž vědu!</title>
+    <link>http://localhost:1313/zapojte-se/</link>
+    <description>Recent content in Zapojte-Ses on Zvaž vědu!</description>
+    <generator>Hugo</generator>
+    <language>cs-cz</language>
+    <atom:link href="http://localhost:1313/zapojte-se/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Podpořte nás</title>
+      <link>http://localhost:1313/zapojte-se/podpora/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zapojte-se/podpora/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Přednášej u nás!</title>
+      <link>http://localhost:1313/zapojte-se/recnici/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zapojte-se/recnici/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Přidej se k nám!</title>
+      <link>http://localhost:1313/zapojte-se/pridej-se-k-nam/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zapojte-se/pridej-se-k-nam/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Staň se ambasadorem!</title>
+      <link>http://localhost:1313/zapojte-se/ambasadori/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zapojte-se/ambasadori/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
