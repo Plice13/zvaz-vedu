@@ -318,7 +318,7 @@
             </div>
         </template>
         <script>
-            fetch('/json/speakers.json')
+            fetch('https://plice13.github.io/zvaz-vedu/json/speakers.json')
               .then(response => response.json())
               .then(speakers => {
                 const container = document.getElementById('speakers-container');
