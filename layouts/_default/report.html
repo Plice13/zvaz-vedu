@@ -19,8 +19,8 @@
                     {{$baseURL := .Site.BaseURL}}
                     {{range readDir $dir}}
                         {{if not (eq .Name ".DS_Store")}}
-                            <a href="{{ .Site.BaseURL }}media/imgs/gallery/{{$name}}/{{.Name}}" class="glightbox" data-gallery="gallery1">
-                                <img src="{{ .Site.BaseURL }}media/imgs/gallery/{{$name}}/{{.Name}}">
+                            <a href="{{ $baseURL }}media/imgs/gallery/{{$name}}/{{.Name}}" class="glightbox" data-gallery="gallery1">
+                                <img src="{{ $baseURL }}media/imgs/gallery/{{$name}}/{{.Name}}">
                             </a>
                         {{end}}
                     {{end}}
